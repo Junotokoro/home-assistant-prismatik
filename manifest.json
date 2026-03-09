@@ -1,10 +1,11 @@
 {
   "domain": "prismatik",
   "name": "Prismatik",
-  "version": "2021.3.0.1",
+  "version": "2026.3.0",
   "config_flow": true,
-  "documentation": "https://github.com/zomfg/home-assistant-prismatik",
+  "documentation": "https://github.com/Junotokoro/home-assistant-prismatik",
   "codeowners": [
-    "@zomfg"
-  ]
+    "@Junotokoro"
+  ],
+  "requirements": []
 }

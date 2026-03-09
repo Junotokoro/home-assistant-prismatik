@@ -16,20 +16,14 @@
 uncheck `Listen only on local interface`
 
 **HA server**
-```sh
-cd /hass/config/custom_components
 
-# for the latest version
-git clone --branch master --depth 1 https://github.com/zomfg/home-assistant-prismatik.git prismatik
+Add the repo to HACS and install from there
 
-# or for a specific HA version, see https://github.com/zomfg/home-assistant-prismatik/tags for available versions
-git clone --branch ha-0.110 --depth 1 https://github.com/zomfg/home-assistant-prismatik.git prismatik
-```
 or manually download to `/hass/config/custom_components` and rename `home-assistant-prismatik` to `prismatik`
 
-or add the repo to HACS and install from there
 
 **HA config**
+
 you can configure the integration through UI
 or with YAML
 ```yaml
@@ -50,4 +44,4 @@ light:
     profile_name: hass
 ```
 
-Initially tested on HA 0.105.4 and Prismatik [5.2.11.21](https://github.com/psieg/Lightpack/releases/tag/5.11.2.21)
+Tested on HA 2026.3 and Prismatik [5.11.2.31](https://github.com/psieg/Lightpack/releases/tag/5.11.2.31)

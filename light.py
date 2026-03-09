@@ -9,7 +9,6 @@ from homeassistant.components.light import (
     ATTR_EFFECT,
     ATTR_EFFECT_LIST,
     ATTR_HS_COLOR,
-    COLOR_MODE_HS,
     ColorMode,
     LightEntity,
     LightEntityFeature,
