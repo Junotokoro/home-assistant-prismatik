@@ -7,22 +7,34 @@
 </p>
 
 <p align="center">
-  <img src="https://github.com/zomfg/home-assistant-prismatik/workflows/Latest%20HA/badge.svg?branch=master&event=schedule" />
+  <img src="https://github.com/Junotokoro/home-assistant-prismatik/actions/workflows/main.yml/badge.svg" />
   <a href="https://github.com/custom-components/hacs"><img src="https://img.shields.io/badge/HACS-Custom-orange.svg" /></a>
 </p>
 
-**Prismatik**
+# Home Assistant Prismatik Integration
 
-uncheck `Listen only on local interface`
-
-**HA server**
-
-Add the repo to HACS and install from there
-
-or manually download to `/hass/config/custom_components` and rename `home-assistant-prismatik` to `prismatik`
+Integration for [Prismatik](https://github.com/psieg/Lightpack) backlight control  in Home Assistant.
 
 
-**HA config**
+## Installation
+
+### HACS (Recommended)
+1. Click the button below to add this custom repository to HACS\
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?category=integration&repository=home-assistant-prismatik&owner=Junotokoro)
+2. Install "Prismatik" from HACS
+3. Restart Home Assistant
+4. Add the integration through the UI or yaml
+
+
+## Settings
+
+### **Prismatik app**
+
+> [!IMPORTANT]
+> Before using, make sure that the `"Listen only on local interface (127.0.0.1)"` checkbox is unchecked in the Prismatik settings..
+
+
+### **HA config**
 
 you can configure the integration through UI
 or with YAML
